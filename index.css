@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .navbar-brand {
+    background-color: black;
+}
+
+header .navbar-brand img {
+    height: 50px;
+    width: 100%;
+}
+
+.developer {
+    background-color: black;
+    height: 100vh;
+}
+
+nav .offcanvas ul li a {
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+nav .offcanvas ul li a:hover {
+    color: #03dac4;
+}
+
+nav .offcanvas ul li button {
+    background-color: #03dac4;
+    margin-left: 10px;
+}
+
+nav .offcanvas ul li button:hover,
+:focus {
+    background-color: #03dac4;
+}
+
+nav .offcanvas ul {
+    align-items: center;
+}
+
+.developer .name {
+    height: 89%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.developer .name h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.developer .name h5 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: rgb(212, 212, 212);
+}
+
+.developer .name span {
+    color: #03dac4;
+}
+
+.name .icons .icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.name .icons .icon a {
+    color: black;
+    margin-left: 10px;
+    padding: 10px;
+    width: 4%;
+    height: 4%;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.service {
+    padding: 50px;
+    background-color: #131313;
+}
+
+.service .can_do {
+    text-align: center;
+}
+
+.service .can_do h5 {
+    color: rgb(212, 212, 212);
+    font-size: 2rem;
+}
+
+.service .can_do h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+
+.service .can_do h1 span {
+    color: #03dac4;
+}
+
+.service .boxes .box {
+    background-color: #2e2e2f;
+    color: white;
+    padding: 20px;
+    height: 20rem;
+    border-radius: 20px;
+    outline: 5px solid #03dac4;
+}
+
+.service .boxes .box h1 {
+    text-align: end;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.service .boxes .box i {
+    font-size: 2.5rem;
+}
+
+.service .boxes .box h5 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.service .boxes .box span {
+    background-color: white;
+    width: 25%;
+    height: 3px;
+    display: block;
+    margin-top: 10px;
+}
+
+.service .boxes .box p {
+    margin-top: 10px;
+}
+
+.portfolio {
+    padding: 50px;
+    background-color: #131313;
+}
+
+.portfolio .project {
+    text-align: center;
+}
+
+.portfolio .project h5 {
+    color: rgb(212, 212, 212);
+    font-size: 2rem;
+}
+
+.portfolio .project h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+
+.portfolio .project h1 span {
+    color: #03dac4;
+}
+
+.portfolio .boxes .box {
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    outline: 2px solid #03dac4;
+    background-color: #2e2e2f;
+    padding: 0;
+}
+
+.portfolio .boxes .box .info {
+    padding: 10px;
+}
+
+.portfolio .boxes .box h5 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.portfolio .boxes .box {
+    text-align: center;
+    height: 22rem;
+}
+
+.portfolio .boxes .box:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.portfolio .boxes .box img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    height: 50%;
+}
+
+
+.bio {
+    padding: 50px;
+    background-color: #1d1d1d;
+}
+
+.bio .about {
+    text-align: center;
+}
+
+.bio .about h5 {
+    color: rgb(212, 212, 212);
+    font-size: 2rem;
+}
+
+.bio .about h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+
+.bio .about h1 span {
+    color: #03dac4;
+}
+
+.bio .about_me img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 100%;
+}
+
+.bio .skill h5 {
+    color: rgb(212, 212, 212);
+    font-size: 2rem;
+}
+
+.bio .skill h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.bio .skill h1 span {
+    color: #03dac4;
+}
+
+.bio .skill p {
+    color: white;
+}
+
+.bio .skill .language .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.bio .skill .language h5 {
+    width: fit-content;
+    background-color: #2e2e2f;
+    padding: 20px;
+    border-radius: 20px;
+    outline: 2px solid #03dac4;
+}
+
+.bio .skill .language h5:hover {
+    cursor: pointer;
+}
+
+
+.get_touch {
+    padding: 50px;
+    background-color: #131313;
+}
+
+.get_touch .contact {
+    text-align: center;
+}
+
+.get_touch .contact h5 {
+    color: rgb(212, 212, 212);
+    font-size: 2rem;
+}
+
+.get_touch .contact h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+
+.get_touch .contact p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 20px;
+}
+
+.get_touch .contact h1 span {
+    color: #03dac4;
+}
+
+.get_touch .awesome {
+    background-color: #1d1d1d;
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.get_touch .idea h5 {
+    color: #03dac4;
+}
+
+.get_touch .awesome .number {
+    display: flex;
+    flex-direction: row;
+}
+
+.get_touch .awesome .number p {
+    margin-left: 10px;
+}
+
+.get_touch .awesome .detail h5 {
+    margin-top: 10px;
+}
+
+.get_touch .awesome .detail input {
+    margin-top: 10px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1d1d1d;
+    border: 1px solid white;
+    color: white;
+}
+
+.get_touch .awesome .detail textarea {
+    margin-top: 10px;
+    width: 80%;
+    height: 8rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1d1d1d;
+    border: 1px solid white;
+    color: white;
+}
+
+.get_touch .awesome button {
+    background-color: #03dac4;
+}
+
+.get_touch .awesome button:hover,
+:focus {
+    background-color: #03dac4;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    color: white;
+    padding: 0;
+    margin: 0 !important;
+}
+
+footer {
+    background-color: #131313;
+    padding: 20px;
+}
+
+footer h5 {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* ///////////////////responsive//////////////// */
+
+@media (min-width : 991px) and (max-width : 1151px) {
+    .service .boxes .box {
+        height: 24rem;
+    }
+
+    .name .icons .icon a {
+        width: 6%;
+        height: 6%;
+    }
+}
+
+@media (min-width : 765px) and (max-width : 992px) {
+    .service .boxes .box {
+        height: 28rem;
+        width: 19rem;
+    }
+
+    .name .icons .icon a {
+        width: 6%;
+        height: 6%;
+    }
+
+    .get_touch .awesome .detail input {
+        width: 100%;
+    }
+
+    .get_touch .awesome .detail textarea {
+        width: 100%;
+    }
+}
+
+@media (min-width : 570px) and (max-width : 765px) {
+    .service .boxes .box {
+        height: 26rem;
+        width: 28rem;
+    }
+
+    .name .icons .icon a {
+        width: 9%;
+        height: 9%;
+    }
+
+    .get_touch .awesome .detail input {
+        width: 100%;
+    }
+
+    .get_touch .awesome .row {
+        justify-content: center;
+    }
+
+    .get_touch .awesome .detail textarea {
+        width: 100%;
+    }
+}
+
+@media (min-width : 500px) and (max-width : 569px) {
+    .service .boxes .box {
+        height: 22rem;
+    }
+
+    .name .icons .icon a {
+        width: 10%;
+        height: 10%;
+    }
+
+    .get_touch .awesome .detail input {
+        width: 100%;
+    }
+
+    .get_touch .awesome .row {
+        justify-content: center;
+    }
+
+    .get_touch .awesome .detail textarea {
+        width: 100%;
+    }
+}
+
+
+@media (min-width : 450px) and (max-width : 500px) {
+    .service .boxes .box {
+        height: 22rem;
+    }
+
+    .get_touch .awesome .detail input {
+        width: 100%;
+    }
+
+    .get_touch .awesome .row {
+        justify-content: center;
+    }
+
+    .get_touch .awesome .detail textarea {
+        width: 100%;
+    }
+
+    .name .icons .icon a {
+        width: 10%;
+        height: 10%;
+    }
+}
+
+
+@media (min-width : 350px) and (max-width : 450px) {
+    .name .icons .icon a {
+        width: 15%;
+        height: 15%;
+    }
+
+    .service .boxes .box {
+        height: 25rem;
+    }
+
+    .get_touch .awesome .detail input {
+        width: 100%;
+    }
+
+    .get_touch .awesome .row {
+        justify-content: center;
+    }
+
+    .get_touch .awesome .detail textarea {
+        width: 100%;
+    }
+}
+
+
+@media (min-width : 300px) and (max-width : 351px) {
+    .name .icons .icon a {
+        width: 15%;
+        height: 15%;
+    }
+
+    .service .boxes .box {
+        height: 25rem;
+    }
+
+    .get_touch .awesome .detail input {
+        width: 100%;
+    }
+
+    .get_touch .awesome .row {
+        justify-content: center;
+    }
+
+    .get_touch .awesome .detail textarea {
+        width: 100%;
+    }
+}
